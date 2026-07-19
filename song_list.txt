@@ -1,0 +1,335 @@
+数据库中共有 333 首歌曲
+==================================================
+1. Intro - The xx
+2. He's a Pirate - Klaus Badelt
+3. The Show - Lenka
+4. Lotus - Galdive, Wiana, Osvaldorio
+5. River - Bishop Briggs
+6. 沧海一声笑 - GAI周延, 刘煜
+7. Pillow talk - Auryn
+8. Someone You Loved - Lewis Capaldi
+9. Easier - 5 Seconds of Summer
+10. WHAT IF YOU FELL IN LOVE? - Jake Miller
+11. Alan Walker - Faded Alone（Albim Mashup ） - Alan Walker, Iselin Solheim, Noonie Bao
+12. Moves Like Jagger - Maroon 5, Christina Aguilera
+13. There's No Way - Lauv, Julia Michaels
+14. 我欢喜喜欢你 - 焦迈奇
+15. I Believe - Jonas Brothers
+16. Difficult - Jay Bombay, NEIMY
+17. Question - Lauv, Travis Mills
+18. Sober - G-Eazy, Charlie Puth
+19. 李白 - 李荣浩
+20. Legends Never Die - 英雄联盟, Against the Current
+21. 十年(Live) - 韩红, 陈奕迅
+22. 离人愁 - 李袁杰
+23. Are You With Me - Lost Frequencies
+24. 世间美好与你环环相扣 - 柏松
+25. 心墙 - 婷婷吖, 沈浪Virgil
+26. Come Back For You (Morgan Page Remix) - Eiephante, Matluck
+27. Ignite - Zedd
+28. Clsr (Aash Mehta Flip) - The Chainsmokers, Aash Mehta, Halsey
+29. if i were u - Blackbear, Lauv
+30. 平凡之路 - 朴树
+31. 爸爸妈妈 - 李荣浩
+32. Xenogenesis - TheFatRat
+33. SKINNYDIP - Jake Miller
+34. Legend - The Score
+35. Lucky - Lenka
+36. The One - The Chainsmokers
+37. 刀马旦 - 李玟, 周杰伦
+38. Free Loop - Daniel Powter
+39. 風の住む街 - 磯村由紀子
+40. bad guy - with Justin Bieber - Billie Eilish, Justin Bieber
+41. 出发 - 司南
+42. 十年 - 梁朝伟, 李宇春
+43. for him (Live) - Troye Sivan
+44. RISE - 英雄联盟, Mako, The Word Alive, The Glitch Mob
+45. Solo - Iyaz
+46. Jealous - Faustix
+47. Say You Won't Let Go - James Arthur
+48. Deep Down - Johnny Orlando
+49. Find Our Way - Midnight Kids, Klei
+50. Fly with Me (English Version) - 雄山, DJ Okawari
+51. Sky (Radio Edit) - Steerner, Martell
+52. How Long - Charlie Puth
+53. Drown (feat. Clinton Kane) (Alle Farben Remix) - Martin Garrix, Clinton Kane, Alle Farben
+54. Inside Out - Mokita
+55. 大鱼 - 周深
+56. Pictures - SRTW, Hier
+57. 全部都是你 - DP龙猪, 宝楽CNBALLER, 王云 Cloud Wang
+58. Fly Away - TheFatRat, Anjulie
+59. Cradles - Sub Urban
+60. LIFE - Rude-α
+61. 一叶知秋 - Y.Z.H于哲浩, 李晨曦Chrisulous
+62. Five Hundred Miles - Justin Timberlake, Carey Mulligan, Stark Sands
+63. Hold On & Believe - Martin Garrix, Federal Empire
+64. BOOM - Tiësto, Sevenn
+65. Words - Feint, Laura Brehm
+66. 愿与愁 - 林俊杰
+67. That Girl - Olly Murs
+68. 刚好遇见你 - 李玉刚
+69. Whataya Want from Me (live) - Adam Lambert
+70. 愿 锦衣之下主题曲（cover周深）（翻自 周深） - 何书还lx
+71. 失眠飞行 - 接个吻，开一枪, 沈以诚, 薛明媛
+72. Shape of You - Ed Sheeran
+73. All The Right Moves - OneRepublic
+74. Canada - Lauv, Alessia Cara
+75. Titanium - David Guetta, Sia
+76. Listen Closely - DVBBS, SAFE
+77. 你曾是少年 - 焦迈奇
+78. 我们还是回到了两个世界 - 仇志
+79. Diamonds - Rihanna
+80. Please Don't Go - Joel Adams
+81. Crime - Grey, Skott
+82. Better With You - Austin Mahone
+83. 佛系少女 - 冯提莫
+84. 丑八怪 - 薛之谦
+85. 我走后 - 小咪
+86. One Day (Album Version) - Emblem3
+87. 树洞 - 欧阳娜娜
+88. The Box - Roddy Ricch
+89. Fractures - ILLENIUM, Nevve
+90. Obvious - Adam Rom
+91. Lily - Alan Walker, K-391, Emelie Hollow
+92. Counting Sheep - SAFIA
+93. DEAR JOHN - 比莉
+94. Sweatpants - Lauv
+95. South of the Border (feat. Camila Cabello & Cardi B) [Cheat Codes Remix] - Ed Sheeran, Camila Cabello, Cardi B, Cheat Codes
+96. 我和我的祖国 - 王菲
+97. Chasing Fire - Lauv
+98. House of Cards - Tyler Shaw
+99. Intro - Alan Walker
+100. 雨爱 - 周星星
+101. pink skies - LANY
+102. 四块五 - 隔壁老樊
+103. When I See You - Mokita
+104. Children Of A Miracle - Don Diablo, Marnik
+105. Yummy - Justin Bieber
+106. 暗示 - 周深
+107. Somebody - The Chainsmokers, Drew Love
+108. Time (Official) - MKJ
+109. Dont Wanna Try - Hash
+110. Summer Days - Martin Garrix, Macklemore, Patrick Stump
+111. Girls Like You - Maroon 5, Cardi B
+112. 超大只怪兽 - 焦迈奇
+113. Despacito (Remix) - Luis Fonsi, Daddy Yankee, Justin Bieber
+114. I Want You To Know (Hella x Pegato Remix) - Pegato, Hella
+115. 圈住你 - 一口甜
+116. Rebels - Ivy Adara
+117. One For You - Gill Chang, glasscat
+118. 2002 - Anne-Marie
+119. 小赖皮之歌Schnappi - 鳄鱼宝贝
+120. 等你的日子不值一提 - 焦迈奇
+121. Memories - Maroon 5
+122. Wonderful U (Demo Version) - AGA
+123. Man on a Mission - Oh The Larceny
+124. Waiting - Vicetone, Daisy Guttridge
+125. Better Man - Westlife
+126. 听到就爱上的二十秒即兴 - 特污兔-Dirtyrabbit2
+127. Schnappi - Joy Gruttmann
+128. Sims - Lauv
+129. Reality - Lost Frequencies, Janieck
+130. tired - vietra
+131. Dive with Me - Lvndscape, Cathrine Lassen
+132. 85% (Acoustic) - Loote
+133. 人生浪费指南 - 夏日入侵企画
+134. Panama - Matteo
+135. Go Time - Mark Petrie
+136. 不加糖 (ZERO) - 白敬亭
+137. Oops - Little Mix, Charlie Puth
+138. 心似烟火 - 陈壹千
+139. All Time Low (Cash Cash Remix) - Cash Cash, Jon Bellion
+140. River - Bishop Briggs
+141. Sold Out - Jonathan Steingard, Hawk Nelson
+142. Havana - Camila Cabello, Young Thug
+143. Sad Forever - Lauv
+144. Invisible Things - Lauv
+145. GQ - Lola Coca
+146. Love Me Back (Acoustic) - RITUAL, Tove Styrke
+147. Meant To Be - Arc North, Krista Marina
+148. Roar - Katy Perry
+149. Nobody Compares - One Direction
+150. Not Angry - Chris James
+151. 儿子，我是你爸爸 (Demo) - 王宝
+152. Erase - FRND
+153. Free Loop - Daniel Powter
+154. 明天可以见到你吗？ - 坤木Joymo, 吃水母
+155. 追光者 - 岑宁儿
+156. Hello - Adele
+157. Old Town Road - Lil Nas X
+158. 盗将行 - 花粥, 马雨阳
+159. Fire - Gavin DeGraw
+160. Re-arrange - Biffy Clyro
+161. 可不可以 - 张紫豪
+162. All Falls Down - Alan Walker, Noah Cyrus, Digital Farm Animals, Juliander
+163. Faded - Alan Walker
+164. Mine (You Can't Find Love in Mollywood) - Lauv
+165. Go Again (feat. ELYSA) - King CAAN, Elysa
+166. 天下 - 张杰
+167. Tattoos Together - Lauv
+168. Immortals - Fall Out Boy
+169. Fake - The Tech Thieves
+170. Lemon Tree - Fool's Garden
+171. Monsters - Katie Sky
+172. 绿色 - 陈雪凝
+173. Lemon - 米津玄師
+174. Lie - Sasha Alex Sloan
+175. 浪漫与贫富无关 - 仇志
+176. Better Than One - The Score
+177. 侧脸 - 于果
+178. 水星记 - 郭顶
+179. Call My Name - 黄念thinJ, 岸炘
+180. Last Chance - Alyssa Reid, JRDN
+181. Who Do You Love - The Chainsmokers, 5 Seconds of Summer
+182. Beautiful People (feat. Khalid) - Ed Sheeran, Khalid
+183. New Soul - Yael Naim
+184. Pizza - Martin Garrix
+185. Tek It - Cafuné
+186. The Ocean (Radio Edit) - Mike Perry, SHY Martin
+187. 情人 - 蔡徐坤
+188. 风的颜色 - NINEONE#乃万
+189. Coming Home - Diddy-Dirty Money, Skylar Grey
+190. 普通朋友 - PIggy
+191. プロローグ - Uru
+192. 生日快乐 - yihuik苡慧
+193. 我的天空 - 南征北战NZBZ
+194. Reforget - Lauv
+195. Adrenaline - Lauv
+196. The Monster - Eminem, Rihanna
+197. Where Are You Now - Union J
+198. colorblind - Mokita
+199. Warriors - Imagine Dragons
+200. Come Back Home - Lauv
+201. 南屏晚钟 - 蔡琴
+202. East of Eden - Zella Day
+203. 下个, 路口, 见 - 李宇春
+204. I Love You So - The Walters
+205. 追 - 陈壹千
+206. Shotgun - Us The Duo
+207. Samsara - Tungevaag & Raaban
+208. Let Me Love You - DJ Snake, Justin Bieber
+209. The Girl That's Underneath - Jake Miller, Jabbar Hakeem
+210. Permanent - Jake Miller
+211. Deep End - Fousheé
+212. Natural - Planet in Limbo
+213. 达拉崩吧 (Live) - 周深
+214. Stranger Things (Alan Walker Remix) - Kygo, OneRepublic, Alan Walker
+215. 阿司匹林 - 王以太
+216. Stitches - Shawn Mendes
+217. I Just Wanna Run - The Downtown Fiction
+218. No Roots - Alice Merton
+219. Dynamite - Westlife
+220. I don't wanna see u anymore - NINEONE#乃万
+221. Just Friends - Virginia To Vegas
+222. Vagrant - Feint, Veela
+223. LET IT GO - DJ Khaled, Justin Bieber, 21 Savage
+224. 收敛 - 不够
+225. Love Like That - Lauv
+226. Summer Holiday - 小田同学, 李娜来
+227. 药水歌 - 药水哥
+228. 爱的就是你 - 刘佳
+229. Keep You Mine - NOTD, SHY Martin
+230. 起风了 - 冯沁苑(买辣椒也用券)
+231. 护花使者 - 李克勤
+232. 来自天堂的魔鬼 - G.E.M.邓紫棋
+233. Fight - DEAMN
+234. April Encounter - 很美味
+235. TALK ME DOWN - Troye Sivan
+236. 囍（Chinese Wedding） - 葛东琪
+237. Yummy (Summer Walker Remix) - Justin Bieber, Summer Walker
+238. Wild - Monogem
+239. All We Know - The Chainsmokers, Phoebe Ryan
+240. Weightless - Marconi Union
+241. Booty Music - Deep Side
+242. The New Kings - Vicetone, Popeska, Luciana
+243. 啷个哩个啷 - 鹏泊
+244. Hung Up - Tritonal, Sj, Emma Gatsby
+245. 亲一口月亮，然后就睡觉 - PIggy
+246. 我管你 - 华晨宇
+247. WILD - Troye Sivan
+248. Rolling in the Deep - Adele
+249. LOSER - 米津玄師
+250. Photograph - Ed Sheeran
+251. EASE - Troye Sivan, BROODS
+252. weightless - Sissel
+253. Turnin' - Young Rising Sons
+254. The Other (Stripped) - Lauv
+255. Think of Me - HARIZ
+256. Fire - Ytram, Elderbrook, Martin Garrix
+257. 回忆总想哭 - 南宫嘉骏, 姜玉阳
+258. I Heart U - Kretsen, Violet Days
+259. 南山南 - 马頔
+260. Firework - Katy Perry
+261. ROCKSTAR - DaBaby, Roddy Ricch
+262. 爱瘾 - 杨胖雨
+263. Bang Bang - Jessie J, Ariana Grande, Nicki Minaj
+264. We Don't Talk Anymore - Charlie Puth, Selena Gomez
+265. comethru - Jeremy Zucker, Bea Miller
+266. Stay (feat. Betsy Blue) - Yves V, Matthew Hill, Betsy Blue
+267. Breath and Life - Audiomachine
+268. October - Alessia Cara
+269. I'm So Sorry - Hearts & Colors
+270. BINGBIAN病变 - Cubi, 多多Aydos
+271. 纸短情长 - 烟把儿
+272. Payphone - Maroon 5, Wiz Khalifa
+273. Lost - Blake Rose
+274. 二十三号病床 - 葛东琪
+275. Lil Mama - Jain
+276. 画皮 - 纸砚Zyan
+277. Love Somebody - Lauv
+278. 给电影人的情书 - 蔡琴
+279. comethru - Jeremy Zucker
+280. 魔术与歌曲：告白气球 (Live) - 周杰伦, 蔡威泽
+281. Escape - Dripice
+282. Lay It All on Me (feat. Ed Sheeran) - Rudimental, Ed Sheeran
+283. Used To - James Carter, Kaii
+284. End Of The Night - Danny Avila
+285. Whistle - Flo Rida
+286. Take Me There - Westlife
+287. in love - vietra
+288. Valder Fields - Tamas Wells
+289. Enemies - Lauv
+290. 年少有为 - 李荣浩
+291. Dancing With Your Ghost - Sasha Alex Sloan
+292. 我是真的爱上你 - 曲肖冰
+293. Sucker for You - Matt Terry
+294. Why You Look Sad? - 舵Diverseddie
+295. Leyla - Mesto
+296. 醉赤壁 - 林俊杰
+297. 芒种 - 音阙诗听, 赵方婧
+298. The Other - Lauv
+299. 哪吒 - GAI周延, 大痒痒
+300. 你的酒馆对我打了烊 - 陈雪凝
+301. 烟火里的尘埃 - 华晨宇
+302. 我的名字 - 焦迈奇
+303. 画 (Live Piano Session II) - G.E.M.邓紫棋
+304. Victory - Two Steps From Hell, Thomas Bergersen
+305. Shape of You - Ed Sheeran
+306. Bet On Me (Organic Version) - Walk off the Earth, D Smoke
+307. 远走高飞 - 金志文
+308. 守候 (2020重唱版) - 薛之谦
+309. NERVOUS - Jake Miller, Tomos
+310. 野狼disco - 宝石Gem
+311. Poker Face - Lady Gaga
+312. 情诗 - 李秋实
+313. Find You - HIDDN, Beatrich
+314. Sugar - Maroon 5
+315. Break Up In A Small Town - Sam Hunt
+316. 归去来兮 - 花粥
+317. That's Us - Anson Seabra
+318. See You Again - Wiz Khalifa, Charlie Puth
+319. There For You - Martin Garrix, Troye Sivan
+320. Back to the Start - Jake Miller
+321. Es rappelt im Karton - Pixie Paris
+322. ill come back to you - Powfu, Sarcastic Sounds, Rxseboy
+323. Sleepless Nights - ayokay, Nightly
+324. Call Me Maybe - Carly Rae Jepsen
+325. 与我无关 - 阿冗
+326. Never Gonna Let You - Galavant, Dafina, Max S
+327. 鱼 - 冯政FireDrippin, 李铭辰, FAKE持续输出, 巴鲁斯
+328. Baby - Justin Bieber, Ludacris
+329. Can't Help Myself - Jake Miller
+330. 最甜情歌 (女生版) - 一玟
+331. Chasing Fire (Stripped – Live in London) - Lauv
+332. PDD - 徐梦圆
+333. Happier - Marshmello, Bastille

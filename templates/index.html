@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 音乐电台</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .message-bubble {
+            max-width: 80%;
+        }
+        .typing-indicator {
+            display: inline-flex;
+            align-items: center;
+        }
+        .typing-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+            margin: 0 2px;
+            animation: typing 1.4s infinite ease-in-out;
+        }
+        @keyframes typing {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
+            40% { transform: scale(1); opacity: 1; }
+        }
+        .typing-dot:nth-child(1) { animation-delay: 0s; }
+        .typing-dot:nth-child(2) { animation-delay: 0.2s; }
+        .typing-dot:nth-child(3) { animation-delay: 0.4s; }
+        .play-btn {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+        }
+        .mood-tag {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .mood-开心 { background: #fef08a; color: #854d0e; }
+        .mood-平静 { background: #bfdbfe; color: #1e40af; }
+        .mood-忧伤 { background: #c7d2fe; color: #3730a3; }
+        .mood-兴奋 { background: #fcd34d; color: #92400e; }
+        .mood-浪漫 { background: #fbcfe8; color: #9d174d; }
+        .mood-随意 { background: #e5e7eb; color: #374151; }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- 标题 -->
+        <div class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-white mb-2">🎵 AI 音乐电台</h1>
+            <p class="text-white/70">和AI聊聊天，它会根据你的心情推荐音乐！</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <!-- 左侧：天气和推荐 -->
+            <div>
+                <!-- 天气卡片 -->
+                <div class="glass rounded-2xl p-6 mb-6 text-white">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">🌤️ 当前天气</h3>
+                            <p class="text-3xl font-bold">{{ weather.temperature }}°C</p>
+                            <p class="text-white/80 capitalize">{{ weather.description }}</p>
+                        </div>
+                        <div class="text-6xl">
+                            {% if 'cloud' in weather.description %}☁️{% endif %}
+                            {% if 'sun' in weather.description or 'clear' in weather.description %}☀️{% endif %}
+                            {% if 'rain' in weather.description %}🌧️{% endif %}
+                            {% if 'snow' in weather.description %}❄️{% endif %}
+                        </div>
+                    </div>
+                    <div class="mt-4 flex items-center gap-4">
+                        <span class="text-white/60">💧 湿度: {{ weather.humidity }}%</span>
+                        <span class="text-white/60">📚 歌曲库: {{ song_count }} 首</span>
+                    </div>
+                </div>
+
+                <!-- 推荐歌曲 -->
+                <div class="glass rounded-2xl p-6 text-white">
+                    <h3 class="text-lg font-semibold mb-4">🎶 为你推荐</h3>
+                    <div id="recommendation" class="min-h-[180px]">
+                        <div class="typing-indicator">
+                            <span class="typing-dot"></span>
+                            <span class="typing-dot"></span>
+                            <span class="typing-dot"></span>
+                        </div>
+                    </div>
+                    <button id="recommend-btn" class="mt-4 w-full bg-white/20 hover:bg-white/30 text-white py-2 rounded-lg transition">
+                        🔄 随机推荐一首
+                    </button>
+                </div>
+            </div>
+
+            <!-- 右侧：AI 对话 -->
+            <div class="glass rounded-2xl overflow-hidden flex flex-col h-[500px]">
+                <!-- 对话标题 -->
+                <div class="p-4 border-b border-white/20 text-white">
+                    <h3 class="text-lg font-semibold">🤖 AI 助手</h3>
+                    <p class="text-white/60 text-sm">和AI聊聊天，它会懂你的心情！</p>
+                </div>
+                
+                <!-- 对话内容 -->
+                <div id="chat-messages" class="flex-1 overflow-y-auto p-4 space-y-4">
+                    <div class="text-white/50 text-center text-sm">开始和AI聊天吧！说说你的心情~</div>
+                </div>
+                
+                <!-- 输入框 -->
+                <div class="p-4 border-t border-white/20">
+                    <div class="flex gap-2">
+                        <input type="text" id="chat-input" placeholder="聊聊你的心情..." 
+                               class="flex-1 bg-white/20 border-none rounded-full px-4 py-2 text-white placeholder-white/50 focus:outline-none">
+                        <button id="send-btn" class="bg-white text-purple-600 px-6 py-2 rounded-full font-semibold hover:bg-white/90 transition">
+                            发送
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function displayRecommendation(song) {
+            const neteaseUrl = `https://music.163.com/song?id=${song.netease_id}`;
+            document.getElementById('recommendation').innerHTML = `
+                <div class="bg-white/20 rounded-xl p-4">
+                    <p class="text-xl font-bold">${song.name}</p>
+                    <p class="text-white/70">${song.artist}</p>
+                    <div class="mt-4 flex gap-3">
+                        <a href="${neteaseUrl}" target="_blank" 
+                           class="play-btn text-white px-4 py-2 rounded-lg font-semibold hover:opacity-90 transition">
+                            🎵 在网易云播放
+                        </a>
+                    </div>
+                    <div class="mt-3 text-sm text-white/60">
+                        点击按钮在网易云音乐中播放
+                    </div>
+                </div>
+            `;
+        }
+
+        function getRecommendation(mood = '') {
+            const recDiv = document.getElementById('recommendation');
+            recDiv.innerHTML = '<div class="typing-indicator"><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span></div>';
+            
+            fetch('/api/recommend', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ mood })
+            })
+            .then(res => res.json())
+            .then(song => displayRecommendation(song));
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('chat-input');
+            const messages = document.getElementById('chat-messages');
+            const text = input.value.trim();
+            
+            if (!text) return;
+            
+            // 添加用户消息
+            messages.innerHTML += `
+                <div class="flex justify-end">
+                    <div class="bg-white text-purple-600 rounded-2xl px-4 py-3 message-bubble">${text}</div>
+                </div>
+            `;
+            input.value = '';
+            messages.scrollTop = messages.scrollHeight;
+            
+            // 添加打字状态
+            messages.innerHTML += `
+                <div class="flex justify-start">
+                    <div class="bg-white/20 rounded-2xl px-4 py-3 message-bubble">
+                        <div class="typing-indicator"><span class="typing-dot"></span><span class="typing-dot"></span><span class="typing-dot"></span></div>
+                    </div>
+                </div>
+            `;
+            messages.scrollTop = messages.scrollHeight;
+            
+            // 获取回复
+            fetch('/api/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: text })
+            })
+            .then(res => res.json())
+            .then(data => {
+                // 移除打字状态
+                messages.removeChild(messages.lastChild);
+                
+                // 添加AI回复
+                let moodTag = '';
+                if (data.mood) {
+                    moodTag = `<span class="mood-tag mood-${data.mood} ml-2">${data.mood}</span>`;
+                }
+                
+                messages.innerHTML += `
+                    <div class="flex justify-start">
+                        <div class="bg-white/20 text-white rounded-2xl px-4 py-3 message-bubble">
+                            <div>${data.response}${moodTag}</div>
+                        </div>
+                    </div>
+                `;
+                messages.scrollTop = messages.scrollHeight;
+                
+                // 如果需要推荐，自动更新推荐
+                if (data.should_recommend && data.song) {
+                    displayRecommendation(data.song);
+                }
+            });
+        }
+
+        document.getElementById('recommend-btn').addEventListener('click', () => getRecommendation());
+        document.getElementById('send-btn').addEventListener('click', sendMessage);
+        document.getElementById('chat-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') sendMessage();
+        });
+        
+        // 初始化推荐
+        getRecommendation();
+    </script>
+</body>
+</html>
